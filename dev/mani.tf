@@ -1,8 +1,8 @@
 module "instance_provisioning" {
-  source = "./instance_provisioning"
-  ami = var.ami
+  source   = "../modules"
+  ami      = var.ami
   Instance = var.Instance
-  keyname = var.keyname
-  sg = var.sg
-  mytag = var.mytag
+  keyname  = var.keyname
+  sg       = var.sg
+  mytag    = var.mytag
 }

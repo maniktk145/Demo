@@ -3,6 +3,6 @@ Ignore:
 - terraform.tfstate
 - terraform.tfvars
 - *.pem
-
+- .terraform.lock.hcl
 Do NOT ignore:
 - .gitignore
