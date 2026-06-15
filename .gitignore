@@ -1,0 +1,8 @@
+Ignore:
+- .terraform/
+- terraform.tfstate
+- terraform.tfvars
+- *.pem
+
+Do NOT ignore:
+- .gitignore
